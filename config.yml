@@ -1,0 +1,18 @@
+# Configuration for RemoteOK scraper
+
+# API endpoint
+url: "https://remoteok.com/api"
+
+# HTTP headers to use
+headers:
+  User-Agent: "Mozilla/5.0 (compatible; YourNameBot/1.0)"
+  Accept: "application/json"
+
+# Default filter keywords
+keywords:
+  - "Power BI"
+  - "Python"
+
+# Default output directory and filename prefix
+out: "."
+prefix: "jobs"
